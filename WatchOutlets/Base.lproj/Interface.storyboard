@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Outlets-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Outlets" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchLights" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="HIH-gT-5RP" userLabel="Vertical Group">
+                            <items>
+                                <group width="1" height="45" alignment="left" id="cKj-sj-Fdr" userLabel="Horizontal Group">
+                                    <items>
+                                        <label width="0.10000000000000001" height="1" alignment="left" verticalAlignment="center" text="1" textAlignment="center" id="3Ea-sn-XbO"/>
+                                        <button width="0.45000000000000001" height="1" alignment="left" verticalAlignment="center" title="ON" id="aZc-oS-Bxd">
+                                            <color key="titleColor" red="0.0" green="0.4784313738" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOn1" destination="AgC-eL-Hgc" id="NJS-rg-fzs"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.45000000000000001" height="1" alignment="right" verticalAlignment="center" title="OFF" id="yKq-pi-0g3">
+                                            <color key="titleColor" red="0.84393893600000003" green="0.0" blue="0.022631754399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOff1" destination="AgC-eL-Hgc" id="8P6-C1-C4A"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="45" alignment="left" id="wTw-t2-qbl" userLabel="Horizontal Group">
+                                    <items>
+                                        <label width="0.10000000000000001" height="1" alignment="left" verticalAlignment="center" text="2" textAlignment="center" id="gAC-OU-0om"/>
+                                        <button width="0.45000000000000001" height="1" alignment="left" verticalAlignment="center" title="ON" id="8lx-cA-ZVP">
+                                            <color key="titleColor" red="0.0" green="0.4784313738" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOn2" destination="AgC-eL-Hgc" id="jEM-l2-RBK"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.45000000000000001" height="1" alignment="right" verticalAlignment="center" title="OFF" id="iSJ-xA-gev">
+                                            <color key="titleColor" red="0.84393893600000003" green="0.0" blue="0.022631754399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOff2" destination="AgC-eL-Hgc" id="3KT-vw-FeX"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="45" alignment="left" id="i6Q-dA-j1G" userLabel="Horizontal Group">
+                                    <items>
+                                        <label width="0.10000000000000001" height="1" alignment="left" verticalAlignment="center" text="3" textAlignment="center" id="aWi-i5-bbR"/>
+                                        <button width="0.45000000000000001" height="1" alignment="left" verticalAlignment="center" title="ON" id="7ho-ls-CBe">
+                                            <color key="titleColor" red="0.0" green="0.4784313738" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOn3" destination="AgC-eL-Hgc" id="rgi-X9-QY7"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.45000000000000001" height="1" alignment="right" verticalAlignment="center" title="OFF" id="TD2-eK-YLp">
+                                            <color key="titleColor" red="0.84393893600000003" green="0.0" blue="0.022631754399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOff3" destination="AgC-eL-Hgc" id="Ywy-C1-3i6"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="45" alignment="left" id="Phj-iN-U0h" userLabel="Horizontal Group">
+                                    <items>
+                                        <label width="0.10000000000000001" height="1" alignment="left" verticalAlignment="center" text="4" textAlignment="center" id="fvY-Ia-fas"/>
+                                        <button width="0.45000000000000001" height="1" alignment="left" verticalAlignment="center" title="ON" id="l2L-wP-Ves">
+                                            <color key="titleColor" red="0.0" green="0.4784313738" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOn4" destination="AgC-eL-Hgc" id="YgO-Dp-9WB"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.45000000000000001" height="1" alignment="right" verticalAlignment="center" title="OFF" id="gmS-bw-ynR">
+                                            <color key="titleColor" red="0.84393893600000003" green="0.0" blue="0.022631754399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOff4" destination="AgC-eL-Hgc" id="X87-U5-f5G"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" height="45" alignment="left" id="vbo-NV-kxt" userLabel="Horizontal Group">
+                                    <items>
+                                        <label width="0.10000000000000001" height="1" alignment="left" verticalAlignment="center" text="5" textAlignment="center" id="R7o-Ut-kkw"/>
+                                        <button width="0.45000000000000001" height="1" alignment="left" verticalAlignment="center" title="ON" id="Kx8-Qu-XxM">
+                                            <color key="titleColor" red="0.0" green="0.4784313738" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOn5" destination="AgC-eL-Hgc" id="gx9-p4-Vic"/>
+                                            </connections>
+                                        </button>
+                                        <button width="0.45000000000000001" height="1" alignment="right" verticalAlignment="center" title="OFF" id="LYT-M0-miE">
+                                            <color key="titleColor" red="0.84393893600000003" green="0.0" blue="0.022631754399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                            <connections>
+                                                <action selector="touchedOff5" destination="AgC-eL-Hgc" id="oBo-LG-Hdk"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="6w2-a5-eBG">
+                        <items>
+                            <menuItem title="All On" icon="accept" id="zBF-bP-1n0">
+                                <connections>
+                                    <action selector="toggleAllOn" destination="AgC-eL-Hgc" id="fJP-fp-dYd"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="All Off" icon="block" id="1tM-is-fe4">
+                                <connections>
+                                    <action selector="toggleAllOff" destination="AgC-eL-Hgc" id="jFa-8U-yds"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
