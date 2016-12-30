@@ -57,9 +57,11 @@ class ViewController: UIViewController {
             alertController.addAction(actionOff)
             alertController.addAction(actionCancel)
 
-            let point = sender.location(in: view)
-            alertController.popoverPresentationController!.sourceView = view
-            alertController.popoverPresentationController!.sourceRect = CGRect(x: point.x, y: point.y, width: 1, height: 1)
+            if alertController.popoverPresentationController != nil {
+                let point = sender.location(in: view)
+                alertController.popoverPresentationController!.sourceView = view
+                alertController.popoverPresentationController!.sourceRect = CGRect(x: point.x, y: point.y, width: 1, height: 1)
+            }
 
             present(alertController, animated: true, completion: nil)
         }
