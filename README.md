@@ -1,5 +1,5 @@
 # Outlets
-An `iOS` and `watchOS` app for controlling [Etekcity Wireless Electrical Outlets] (http://www.etekcity.com/product/100068.html) through [RFOutlet] (https://github.com/timleland/rfoutlet).
+An `iOS` and `watchOS` app for controlling [Etekcity Wireless Electrical Outlets](http://www.etekcity.com/product/100068.html) through [RFOutlet](https://github.com/timleland/rfoutlet) integration.
 
 ![Icon](Assets/Icon.png)
 
